@@ -1,5 +1,17 @@
 {
+    "name": "samiulislamsharan/php-rest-api",
+    "type": "project",
+    "description": "A simple PHP REST API",
+    "keywords": [
+        "php",
+        "rest-api"
+    ],
     "require": {
         "firebase/php-jwt": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "PH7\\ApiSimpleMenu\\": "src/"
+        }
     }
 }
